@@ -1,0 +1,27 @@
+
+.carousel {
+  border-radius: 20px;
+  img {
+    border-radius: 20px;
+  }
+  h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    // color: #FFF;
+    // text-shadow: 1px 1px #666;
+  }
+  .carousel-caption {
+    background:rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-top: 10px;
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .carousel-control {
+    border-radius: 20px;
+  }
+}

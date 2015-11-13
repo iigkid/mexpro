@@ -1,0 +1,9 @@
+alias docker-rm='docker rm -v $(docker ps -a -q)'
+alias awk_3="awk '{print \$3}'"
+alias docker-rmi='docker rmi $( docker images | grep "^<none>" | awk_3 )'
+alias fig='docker-compose'
+
+## Main application.
+alias start="docker-compose build && docker-compose up"
+alias stop="docker-compose stop; docker-rm; docker-rmi"
+alias build="docker-compose web run jekyll build"
