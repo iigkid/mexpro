@@ -5,15 +5,13 @@ permalink: /contact/
 body_class: contact
 ---
 
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+  <h1>
+    Mexpro - Mexico Insurance Professionals
+  </h1>
+</div>
 <div class="row">
   <div class="col-md-6">
-    <div itemscope itemtype="http://schema.org/LocalBusiness">
-      <p>
-        <strong>
-          <span itemprop="brand"><a itemprop="url" href="/" title="home">Mexpro - Mexico Insurance Professionals</a></span>
-        </strong>
-      </p>
-    </div>
     <div itemscope itemtype="http://schema.org/ContactPoint">
       <p>
         <strong>Phone:
@@ -48,7 +46,15 @@ body_class: contact
     </div>
     <a href="https://help.mexpro.com/hc/en-us/requests/new?ticket_form_id=63637"
       class="btn btn-primary">
-      Contact our Help Center
+      <span class="glyphicon glyphicon-envelope"></span>
+      Email
+    </a>
+    or
+    <a class="btn btn-primary"
+      onclick="$zopim(function() {$zopim.livechat.window.show();});"
+    >
+      <span class="glyphicon glyphicon-comment"></span>
+      Chat
     </a>
   </div>
   <div class="col-sm-6">
