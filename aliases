@@ -6,4 +6,4 @@ alias fig='docker-compose'
 ## Main application.
 alias start="docker-compose build && docker-compose up"
 alias stop="docker-compose stop; docker-rm; docker-rmi"
-alias build="docker-compose web run jekyll build"
+alias build="docker-compose run web jekyll build"
