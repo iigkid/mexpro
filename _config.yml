@@ -15,3 +15,6 @@ url: "http://www.mexpro.net" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap

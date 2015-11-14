@@ -1,6 +1,6 @@
 FROM ruby
 
-RUN gem install jekyll
+RUN gem install jekyll jekyll-sitemap
 
 WORKDIR /usr/src/app
 
