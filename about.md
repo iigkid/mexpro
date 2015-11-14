@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Us
+excerpt: About Mexpro, since 1999
 permalink: /about/
 body_class: about
 ---
