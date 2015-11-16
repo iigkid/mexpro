@@ -3,11 +3,19 @@
 ---
 @charset "utf-8";
 
+/* Bootstrap */
+@import 'bootstrap';
+/* / Bootstrap */
+
+/* Bootstrap-theme */
+@import 'bootstrap-theme';
+/* / Bootstrap-theme */
+
+@import 'layout', 'carousel';
+
 body {
   margin-top: 75px;
 }
-
-@import 'layout', 'navbar', 'carousel';
 
 .home {
   text-align: center;
