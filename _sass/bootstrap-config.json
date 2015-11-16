@@ -159,9 +159,9 @@
     "@navbar-default-brand-color": "@navbar-default-link-color",
     "@navbar-default-brand-hover-color": "darken(@navbar-default-brand-color, 10%)",
     "@navbar-default-brand-hover-bg": "transparent",
-    "@navbar-default-toggle-hover-bg": "#ddd",
-    "@navbar-default-toggle-icon-bar-bg": "#888",
-    "@navbar-default-toggle-border-color": "#ddd",
+    "@navbar-default-toggle-hover-bg": "lighten(@navbar-default-bg, 10%)",
+    "@navbar-default-toggle-icon-bar-bg": "#ccc",
+    "@navbar-default-toggle-border-color": "darken(@navbar-default-bg, 10%)",
     "@navbar-inverse-color": "lighten(@gray-light, 15%)",
     "@navbar-inverse-bg": "#222",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 10%)",
@@ -388,6 +388,9 @@
     "glyphicons.less",
     "navs.less",
     "navbar.less",
+    "responsive-embed.less",
+    "component-animations.less",
+    "dropdowns.less",
     "carousel.less"
   ],
   "js": [
@@ -396,5 +399,5 @@
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c89935478a3f48306bd6"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f6e64013ee20675dba96"
 }
