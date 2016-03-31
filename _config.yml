@@ -11,7 +11,7 @@ email: customerservice@mexpro.com
 description: > # this means to ignore newlines until "baseurl:"
   Online insurance quotes for taking your U.S. or Candian vehicle to Mexico.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mexpro.net" # the base hostname & protocol for your site
+url: "https://www.mexpro.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
