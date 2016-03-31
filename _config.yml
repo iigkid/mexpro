@@ -18,3 +18,8 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
+# Exclusions - Don't add these to the built site.
+exclude:
+  - Dockerfile
+  - docker-compose.yml
