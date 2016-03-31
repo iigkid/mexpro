@@ -12,7 +12,7 @@ To get started,
 (and docker-compose).  Then use the handy-dandy `aliases` file in the root
 of the project to get some shortcut commands:
 
-    $ . ./aliases
+    $ source ./aliases
 
 Now, to start the development server, use the `start` alias.  To stop
 the server, use ctrl+c.  To clean up after the server, use `stop`.
