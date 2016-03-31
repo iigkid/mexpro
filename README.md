@@ -5,8 +5,8 @@ Mexpro's site reimplemented using [Jekyll](https://jekyllrb.com/).
 ## Getting Started
 
 For development on this site, use Docker and Jekyll's development server.
-Docker makes reduces the effort required to get the development server up and
-running, while Jekyll provides an easy server for quickly viewing changes.
+Docker reduces the effort required to get the development server up and
+running, while Jekyll's development server makes viewing your changes painless.
 To get started,
 [install Docker](https://docs.docker.com/engine/installation/)
 (and docker-compose).  Then use the handy-dandy `aliases` file in the root
